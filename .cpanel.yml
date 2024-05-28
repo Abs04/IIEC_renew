@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/iieciubat/iiec.iubat.edu/iiecOld
+    - export DEPLOYPATH=/home/iieciubat/iiec.iubat.edu
     # Copy all files and directories within the current directory (excluding .git)
     - /bin/rsync -avz --exclude=.git . $DEPLOYPATH
