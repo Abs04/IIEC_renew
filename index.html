@@ -29,7 +29,14 @@
     <link href="assets/css/color.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-
+    <!--Script for header and footer-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function() {
+           $('#header').load('header.html');
+           $('#footer').load('footer.html'); 
+        });
+    </script>
 </head>
 
 
@@ -38,35 +45,6 @@
 <body>
 
     <div class="boxed_wrapper">
-
-        <!-- search-popup -->
-        <div id="search-popup" class="search-popup">
-            <div class="close-search"><span>x</span></div>
-            <div class="popup-inner">
-                <div class="overlay-layer"></div>
-                <div class="search-form">
-                    <form method="post" action="index.html">
-                        <div class="form-group">
-                            <fieldset>
-                                <input type="search" class="form-control" name="search-input" value=""
-                                    placeholder="Search Here" required>
-                                <input type="submit" value="Search Now!" class="theme-btn style-four">
-                            </fieldset>
-                        </div>
-                    </form>
-                    <h3>Recent Search Keywords</h3>
-                    <ul class="recent-searches">
-                        <li><a href="index.html">Finance</a></li>
-                        <li><a href="index.html">Idea</a></li>
-                        <li><a href="index.html">Service</a></li>
-                        <li><a href="index.html">Growth</a></li>
-                        <li><a href="index.html">Plan</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- search-popup end -->
-
 
         <!-- main header -->
         <header class="main-header style-two style-three">
@@ -155,12 +133,6 @@
                                     <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
-                            </li>
-                            <li class="search-btn">
-                                <button type="button" class="search-toggler"><i class="icon-1"></i></button>
-                            </li>
-                            <li class="nav-btn nav-toggler navSidebar-button clearfix">
-                                <button><i class="icon-30"></i></button>
                             </li>
                         </ul>
                     </div>
