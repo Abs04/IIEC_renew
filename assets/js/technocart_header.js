@@ -1,3 +1,51 @@
+console.log("header loading..");
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("technoHeaderPlaceHolder").innerHTML = headerContent;
+    console.log("header loaded!");
+
+    // Mobile Menu Toggle
+    document.querySelector(".mobile-nav-toggler").onclick = function () {
+        console.log("clicked!");
+        document.body.classList.add("mobile-menu-visible");
+    };
+
+    // Close Mobile Menu
+    document.querySelector(".mobile-menu .menu-backdrop").onclick =
+        document.querySelector(".mobile-menu .close-btn").onclick = function () {
+            document.body.classList.remove("mobile-menu-visible");
+        };
+
+    // Clone Desktop Menu to Mobile Menu
+    const desktopMenu = document.querySelector(".main-menu .navigation").cloneNode(true);
+    document.querySelector(".mobile-menu .menu-outer").appendChild(desktopMenu);
+
+    // Dropdown Functionality for Mobile Menu
+    const mobileDropdownButtons = document.querySelectorAll(".mobile-menu .dropdown > a");
+
+    mobileDropdownButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            if (button.nextElementSibling && button.nextElementSibling.tagName === 'UL') { // Check if the next sibling is a UL (submenu)
+                event.preventDefault(); // Prevent default link behavior only if it has a submenu
+                button.classList.toggle('open'); // Toggle the 'open' class on the button
+                button.nextElementSibling.classList.toggle('open'); // Toggle the 'open' class on the dropdown menu
+            }
+        });
+    });
+});
+
+$(document).ready(function () {
+    // Dropdown Functionality for Desktop Menu
+    $('.dropdown > a').click(function (event) {
+        if ($(this).siblings('ul').length) {  // Check if the link has a submenu
+            //event.preventDefault(); // Prevent default link behavior only if it has a submenu
+            $(this).siblings('ul').slideToggle(); // Toggle the dropdown menu
+            $(this).toggleClass('open'); // Toggle the 'open' class on the link
+        }
+    });
+});
+
+const headerContent = `
 <header class="main-header style-two style-three">
     <!-- header-upper -->
     <div class="header-upper-two">
@@ -119,3 +167,4 @@
         </div>
     </nav>
 </div>
+`;
