@@ -477,7 +477,60 @@ img {
 .theme-btn-four:hover:before{
   top: -40%;
 }
+/**Glowing theme-btn-five**/
+.theme-btn-five{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #fff !important;
+  background-color:#22b6af;
+  text-align: center;
+  padding: 14px 36px 15px 36px;
+  border-radius: 30px;
+  z-index: 1;
+  transition: all 500ms ease;
+  animation: glowing 1.5s infinite; 
+  box-shadow: 0 0 5px #17a2b8;
+}
 
+.theme-btn-five:before{
+  webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  content: "";
+  bottom: 110%;
+  left: 50%;
+  background: #111111;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  z-index: -1;
+  animation: glowing 1.5s infinite;  
+  box-shadow: 0 0 5px #17a2b8;
+}
+
+.theme-btn-five:hover:before{
+  bottom: -40%;
+  animation: glowing 1.5s infinite; 
+  box-shadow: 0 0 5px #17a2b8;
+}
+@keyframes glowing {
+  0% {
+      box-shadow: 0 0 5px #17a2b8;
+  }
+  50% {
+      box-shadow: 0 0 20px #17a2b8, 0 0 30px #17a2b8, 0 0 40px #17a2b8;
+  }
+  100% {
+      box-shadow: 0 0 5px #17a2b8;
+  }
+}
+/*End of theme button five*/
 
 .pagination{
   position: relative;
