@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.eventDetailBodyContainer {
+  background-color: rgb(255, 255, 255);
+  padding: 5.1rem 0;
+}
+.eventDetailBodyWrapper {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.eventHeading {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* banner section css starts  */
+.bannerCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.bannerLeft {
+  width: 55%;
+}
+
+.bannerLeft p {
+  text-align: center;
+  background-color: #a3f4f4;
+  padding: 0.6rem 0;
+  font-size: 1.3rem;
+  color: rgb(15, 14, 14);
+  font-weight: 550;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 2px solid #cbf3f3;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bannerLeft p:hover {
+  background-color: #d9f1f1;
+  color: rgb(37, 2, 2);
+  border: 2px solid #cbf3f3;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.bannerRight {
+  background-image: url("../images/banner/banner1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.4rem;
+  width: 45%;
+  height: 20rem;
+}
+/* banner section css ends   */
+
+/*  */
+/*  */
+
+/* apply button css starts  */
+
+.detailApplyButton p {
+  text-align: center;
+  background-color: #8cf0f0;
+  padding: 0.6rem 0;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  font-weight: 550;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 2px solid #c9f4f4;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.detailApplyButton p:hover {
+  background-color: #d9f1f1;
+  color: rgb(0, 0, 0);
+  border: 2px solid #bbe8e8;
+  font-weight: 600;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+/* apply button css ends  */
+
+/*  */
+/*  */
+
+/* registration deadline remainder starts  */
+
+.registerRemainder {
+  background-color: rgb(91, 249, 18);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  border-radius: 0.3rem;
+  overflow: auto;
+}
+
+.registerRemainderWrapper {
+  background-color: #90efef;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 2.5rem;
+}
+
+.registerRemainder .registerRemainderWrapper p {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  font-weight: 650;
+}
+.registerRemainder .registerRemainderWrapper .closeIcon {
+  height: 50px;
+  width: 50px;
+}
+.registerRemainder .registerRemainderWrapper .closeIcon img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* registration deadline remainder ends  */
+
+/*  */
+/*  */
+
+/* about competition card css starts  */
+
+.aboutCompetitionCardWrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+}
+
+.aboutCardLeft {
+  width: 20%;
+  height: 16rem;
+}
+
+.aboutCardLeft img {
+  height: 100%;
+  width: 100%;
+}
+
+.aboutCardRight {
+  width: 80%;
+}
+
+.aboutCardRight h1 {
+  font-size: 2.3rem;
+  font-weight: 650;
+  margin-bottom: 1.1rem;
+  color: rgb(0, 0, 0);
+}
+
+.aboutCardRight p {
+  color: rgb(26, 25, 25);
+}
+
+/* about competition card css ends  */
+
+/*  */
+/*  */
+
+.eligibilityCriteriaContainer {
+  margin-top: 1.5rem;
+}
+
+.eligibilityCriteriaWrapper h1 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.eligibilityCriteriaWrapper ul {
+  color: rgb(36, 35, 35);
+}
+/*  */
+/*  */

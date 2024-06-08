@@ -1,227 +1,228 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    overflow: hidden;
-    background-image: linear-gradient(270deg, #e9f8f8 0%, #e9f8f8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(270deg, #e9f8f8 0%, #e9f8f8 100%);
 }
 
 ::selection {
-    color: #fff;
-    background: #e9f8f8;
+  color: #fff;
+  background: #e9f8f8;
 }
 
 .container {
-    width: 330px;
-    background: rgb(8, 104, 143);
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 30px 35px 10px 35px;
+  width: 330px;
+  background: rgb(8, 104, 143);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 30px 35px 10px 35px;
 }
 
 .container header {
-    font-size: 35px;
-    font-weight: 600;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 .container .form-outer {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .container .form-outer form {
-    display: flex;
-    width: 400%;
+  display: flex;
+  width: 400%;
 }
 
 .form-outer form .page {
-    width: 25%;
-    transition: margin-left 0.3s ease-in-out;
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
 }
 
 .form-outer form .page .title {
-    text-align: left;
-    font-size: 25px;
-    font-weight: 500;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .form-outer form .page .field {
-    width: 330px;
-    height: 35px;
-    margin: 45px 0;
-    display: flex;
-    position: relative;
+  width: 330px;
+  height: 35px;
+  margin: 45px 0;
+  display: flex;
+  position: relative;
 }
 
 form .page .field .label {
-    position: absolute;
-    top: -30px;
-    font-weight: 500;
+  position: absolute;
+  top: -30px;
+  font-weight: 500;
 }
 
 form .page .field input {
-    height: 100%;
-    width: 100%;
-    border: 5px solid #eee;
-    border-radius: 5px;
-    padding-left: 15px;
-    font-size: 18px;
+  height: 100%;
+  width: 100%;
+  border: 5px solid #eee;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 18px;
 }
 
 form .field input:focus,
 form .field.valid input {
-    border-color: #e9f8f8;
+  border-color: #e9f8f8;
 }
 
 form .page .field select {
-    width: 100%;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight: 500;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 form .page .field button {
-    width: 100%;
-    height: calc(100% + 5px);
-    border: none;
-    background: #e9f8f8;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: 0.5s ease;
+  width: 100%;
+  height: calc(100% + 5px);
+  border: none;
+  background: #e9f8f8;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s ease;
 }
 
 form .page .field button:hover {
-    background: #e9f8f8;
+  background: #e9f8f8;
 }
 
 form .page .btns button.prev {
-    margin-right: 3px;
-    font-size: 17px;
+  margin-right: 3px;
+  font-size: 17px;
 }
 
 form .page .btns button.next {
-    margin-left: 3px;
+  margin-left: 3px;
 }
 
 .container .progress-bar {
-    display: flex;
-    margin: 25px 0;
-    user-select: none;
+  display: flex;
+  margin: 25px 0;
+  user-select: none;
 }
 
 .container .progress-bar .step {
-    text-align: center;
-    width: 100%;
-    position: relative;
+  text-align: center;
+  width: 100%;
+  position: relative;
 }
 
 .container .progress-bar .step p {
-    font-weight: 500;
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 8px;
 }
 
 .progress-bar .step .bullet {
-    height: 25px;
-    width: 25px;
-    border: 2px solid #fff;
-    display: inline-block;
-    border-radius: 50%;
-    position: relative;
-    transition: 0.2s;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 25px;
+  height: 25px;
+  width: 25px;
+  border: 2px solid #fff;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
 }
 
 .progress-bar .step .bullet.active {
-    border-color: #12192c;
-    background: #e9f8f8;
+  border-color: #12192c;
+  background: #e9f8f8;
 }
 
 .progress-bar .step .bullet span {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .progress-bar .step .bullet.active span {
-    display: none;
+  display: none;
 }
 
 .progress-bar .step .bullet:before,
 .progress-bar .step .bullet:after {
-    position: absolute;
-    content: '';
-    bottom: 11px;
-    right: -51px;
-    height: 3px;
-    width: 44px;
-    /*background: #262626;*/
+  position: absolute;
+  content: "";
+  bottom: 11px;
+  right: -51px;
+  height: 3px;
+  width: 44px;
+  /*background: #262626;*/
 }
 
 .progress-bar .step .bullet.active:after {
-    background: #e9f8f8;
-    transform: scaleX(0);
-    transform-origin: left;
-    animation: animate 0.3s linear forwards;
+  background: #e9f8f8;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
 }
 
 @keyframes animate {
-    100% {
-        transform: scaleX(1);
-    }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
 .progress-bar .step:last-child .bullet:before,
 .progress-bar .step:last-child .bullet:after {
-    display: none;
+  display: none;
 }
 
 .progress-bar .step p.active {
-    color: #e9f8f8;
-    transition: 0.2s linear;
+  color: #e9f8f8;
+  transition: 0.2s linear;
 }
 
 .progress-bar .step .check {
-    position: absolute;
-    left: 50%;
-    top: 70%;
-    font-size: 15px;
-    transform: translate(-50%, -50%);
-    display: none;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
 }
 
 .progress-bar .step .check.active {
-    display: block;
-    color: #fff;
+  display: block;
+  color: #fff;
 }
 
 .credit {
-    text-align: center;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .credit a {
-    text-decoration: none;
-    color: #e9f8f8;
-    font-weight: bold;
+  text-decoration: none;
+  color: #e9f8f8;
+  font-weight: bold;
 }
