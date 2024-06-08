@@ -70,7 +70,7 @@ const headerContent = `
                         </p>
                     </li>
                     <li class="btn-box">
-                        <a href="technov2.html" class="theme-btn-one" target="_blank">Technocrats V.2</a>
+                        <a href="technov2.html" class="theme-btn-five" target="_blank">Technocrats V.2</a>
                     </li>
                 </ul>
             </div>
