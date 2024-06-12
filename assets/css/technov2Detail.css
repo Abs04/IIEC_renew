@@ -192,5 +192,35 @@
 .eligibilityCriteriaWrapper ul {
   color: rgb(36, 35, 35);
 }
-/*  */
-/*  */
+.books-page-single {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Adjust gap as needed */
+}
+
+.left-content, .right-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .content-wrapper {
+      grid-template-columns: 1fr;
+  }
+
+  .left-content, .right-content {
+      max-width: 100%;
+  }
+}

@@ -70,7 +70,8 @@ const headerContent = `
                         </p>
                     </li>
                     <li class="btn-box">
-                        <a href="technov2.html" class="theme-btn-five" target="_blank">Technocrats V.2</a>
+                        <a href="https://forms.gle/jzwD6jaC8ERUMJoZ7" class="theme-btn-six" target="_blank">Registration</a>
+                        <a href="assets/pages/technov2.html" class="theme-btn-five" target="_blank">Technocrats V.2</a>
                     </li>
                 </ul>
             </div>
@@ -133,7 +134,7 @@ const headerContent = `
                                 <li><a href="gallery.html">Gallery</a></li>
 
                                 <li><a href="IIEC_officials.html">IIEC Officials</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog.html">News</a></li>
                                 <li><a href="funding.html">Fundings</a></li>
 
                                 <li><a href="contact.html">Contact</a></li>
@@ -158,27 +159,6 @@ const headerContent = `
     </div>
 
     <!--sticky Header-->
-    <div class="sticky-header">
-        <div class="auto-container">
-            <div class="outer-box clearfix">
-                <div class="menu-area pull-left">
-                    <nav class="main-menu clearfix">
-                        <!--Keep This Empty / Menu will come through Javascript-->
-                    </nav>
-                </div>
-                <ul class="menu-right-content pull-right clearfix">
-                    <li class="search-btn">
-                        <button type="button" class="search-toggler">
-                            <i class="icon-1"></i>
-                        </button>
-                    </li>
-                    <li class="nav-btn nav-toggler navSidebar-button clearfix">
-                        <button><i class="icon-30"></i></button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
 </header>
 <!-- main-header end -->
 
@@ -220,4 +200,5 @@ const headerContent = `
     </nav>
 </div>
 <!-- End Mobile Menu -->
+
 `;

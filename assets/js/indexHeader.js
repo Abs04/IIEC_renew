@@ -69,7 +69,9 @@ const headerContent = `
                         </p>
                     </li>
                     <li class="btn-box">
+                        <a href="https://forms.gle/jzwD6jaC8ERUMJoZ7" class="theme-btn-six" target="_blank">Registration</a>
                         <a href="assets/pages/technov2.html" class="theme-btn-five" target="_blank">Technocrats V.2</a>
+                        
                     </li>
                 </ul>
             </div>
@@ -133,7 +135,7 @@ const headerContent = `
     
                                 <li><a href="assets/pages/funding.html">Fundings</a></li>
                                 <li><a href="assets/pages/IIEC_officials.html">IIEC officials</a></li>
-                                <li><a href="assets/pages/blog.html">Blog</a></li>
+                                <li><a href="assets/pages/blog.html">News</a></li>
                                 <li><a href="assets/pages/contact.html">Contact</a></li>
                             </ul>
                         </div>
@@ -155,29 +157,6 @@ const headerContent = `
         </div>
     </div>
     
-    <!--sticky Header-->
-    <div class="sticky-header">
-        <div class="auto-container">
-            <div class="outer-box clearfix">
-                <div class="menu-area pull-left">
-                    <nav class="main-menu clearfix">
-                        <!--Keep This Empty / Menu will come through Javascript-->
-                    </nav>
-                </div>
-                <ul class="menu-right-content pull-right clearfix">
-                    <li class="search-btn">
-                        <button type="button" class="search-toggler">
-                            <i class="icon-1"></i>
-                        </button>
-                    </li>
-                    <li class="nav-btn nav-toggler navSidebar-button clearfix">
-                        <button><i class="icon-30"></i></button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </header>
     <!-- main-header end -->
     
     <!-- Mobile Menu  -->
