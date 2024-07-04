@@ -52,7 +52,7 @@ const headerContent = `
         <div class="auto-container">
             <div class="upper-inner clearfix">
                 <div class="logo-box pull-left">
-                    <figure class="logo"><a href="../../index.html"><img src="../images/iiec-logo.png" alt=""></a>
+                    <figure class="logo"><a href="index.html"><img src="assets/images/iiec-logo.png" alt=""></a>
                     </figure>
                 </div>
                 <ul class="info-box pull-right clearfix">
@@ -67,7 +67,7 @@ const headerContent = `
     </div>
     <!-- header-lower -->
     <div class="header-lower">
-        <div class="pattern-layer" style="background-image: url(../images/shape/shape-23.png);"></div>
+        <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-23.png);"></div>
         <div class="auto-container">
             <div class="outer-box clearfix">
                 <div class="menu-area pull-left clearfix">
@@ -80,17 +80,17 @@ const headerContent = `
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li><a href="../../index.html">Home</a></li>
+                                <li><a href="index.html">Home</a></li>
 
-                                <li class="dropdown"><a href="../../index.html">Segments</a>
+                                <li class="dropdown"><a href="index.html">Segments</a>
                                     <ul>
-                                        <li><a href="../pages/rulebook.html">Drone Racing</a></li>
-                                        <li><a href="../pages/rulebook.html">Line Follower Robot</a></li>
-                                        <li><a href="../pages/rulebook.html">Soccer Bot</a></li>
-                                        <li><a href="../pages/rulebook.html">Battle Bot</a></li>
-                                        <li><a href="../pages/rulebook.html">Project Showcasing</a></li>
-                                        <li><a href="../pages/rulebook.html">Business Case Study</a></li>
-                                        <li><a href="../pages/rulebook.html">Techathon</a></li>
+                                        <li><a href="rulebook.html">Drone Racing</a></li>
+                                        <li><a href="rulebook.html">Line Follower Robot</a></li>
+                                        <li><a href="rulebook.html">Soccer Bot</a></li>
+                                        <li><a href="rulebook.html">Battle Bot</a></li>
+                                        <li><a href="rulebook.html">Project Showcasing</a></li>
+                                        <li><a href="rulebook.html">Business Case Study</a></li>
+                                        <li><a href="rulebook.html">Techathon</a></li>
 
                                     </ul>
                                 </li>
@@ -107,8 +107,8 @@ const headerContent = `
                 <ul class="menu-right-content pull-right clearfix">
                     <li class="social-icons">
                         <ul class="social-links clearfix">
-                            <li><a href="../../index.html"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="../../index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -126,7 +126,7 @@ const headerContent = `
     <div class="close-btn"><i class="fas fa-times"></i></div>
 
     <nav class="menu-box">
-        <div class="nav-logo"><a href="../../index.html"><img src="../images/iiec-logo.png" alt="" title=""></a>
+        <div class="nav-logo"><a href="index.html"><img src="assets/images/iiec-logo.png" alt="" title=""></a>
         </div>
         <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
         </div>
@@ -142,8 +142,8 @@ const headerContent = `
         </div>
         <div class="social-links">
             <ul class="clearfix">
-                <li><a href="../../index.html"><span class="fab fa-facebook-square"></span></a></li>
-                <li><a href="../../index.html"><span class="fab fa-linkedin-in"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-linkedin-in"></span></a></li>
             </ul>
         </div>
     </nav>

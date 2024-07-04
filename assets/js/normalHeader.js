@@ -46,6 +46,7 @@ $(document).ready(function () {
 });
 
 const headerContent = `
+
 <header class="main-header style-two style-three">
     <!-- header-upper -->
     <div class="header-upper-two">
@@ -53,7 +54,7 @@ const headerContent = `
             <div class="upper-inner clearfix">
                 <div class="logo-box pull-left">
                     <figure class="logo">
-                        <a href="../../index.html"><img src="../images/iiec-logo.png" alt="" /></a>
+                        <a href="index.html"><img src="assets/images/iiec-logo.png" alt="" /></a>
                     </figure>
                 </div>
                 <ul class="info-box pull-right clearfix">
@@ -79,7 +80,7 @@ const headerContent = `
     </div>
     <!-- header-lower -->
     <div class="header-lower">
-        <div class="pattern-layer" style="background-image: url(../images/shape/shape-23.png)"></div>
+        <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-23.png)"></div>
         <div class="auto-container">
             <div class="outer-box clearfix">
                 <div class="menu-area pull-left clearfix">
@@ -92,7 +93,7 @@ const headerContent = `
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li><a href="../../index.html">Home</a></li>
+                                <li><a href="index.html">Home</a></li>
 
                                 <li class="dropdown">
                                     <a href="projects.html">Projects</a>
@@ -146,10 +147,10 @@ const headerContent = `
                     <li class="social-icons">
                         <ul class="social-links clearfix">
                             <li>
-                                <a href="../../index.html"><i class="fab fa-facebook-f"></i></a>
+                                <a href="index.html"><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href="../../index.html"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="index.html"><i class="fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </li>
@@ -169,7 +170,7 @@ const headerContent = `
 
     <nav class="menu-box">
         <div class="nav-logo">
-            <a href="index.html"><img src="../images/iiec-logo.png" alt="" title="" /></a>
+            <a href="index.html"><img src="assets/images/iiec-logo.png" alt="" title="" /></a>
         </div>
         <div class="menu-outer">
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -200,5 +201,4 @@ const headerContent = `
     </nav>
 </div>
 <!-- End Mobile Menu -->
-
 `;

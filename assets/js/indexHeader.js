@@ -70,7 +70,7 @@ const headerContent = `
                     </li>
                     <li class="btn-box">
                         <a href="https://forms.gle/jzwD6jaC8ERUMJoZ7" class="theme-btn-six" target="_blank">Registration</a>
-                        <a href="assets/pages/technov2.html" class="theme-btn-five" target="_blank">Technocrats V.2</a>
+                        <a href="technov2.html" class="theme-btn-five" target="_blank">Technocrats V.2</a>
                         
                     </li>
                 </ul>
@@ -95,48 +95,48 @@ const headerContent = `
                                 <li><a href="index.html">Home</a></li>
     
                                 <li class="dropdown">
-                                    <a href="assets/pages/projects.html">Projects</a>
+                                    <a href="projects.html">Projects</a>
                                     <ul>
-                                        <li><a href="assets/pages/ongoing.html">Ongoing</a></li>
-                                        <li><a href="assets/pages/previous.html">Previous</a></li>
-                                        <li><a href="assets/pages/program_project.html">Program Project</a></li>
+                                        <li><a href="ongoing.html">Ongoing</a></li>
+                                        <li><a href="previous.html">Previous</a></li>
+                                        <li><a href="program_project.html">Program Project</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="assets/pages/advisor.html">Advisors</a></li>
+                                <li><a href="advisor.html">Advisors</a></li>
                                 <li class="dropdown">
-                                    <a href="assets/pages/executive24-25.html">Committee</a>
+                                    <a href="executive24-25.html">Committee</a>
                                     <ul>
                                         <li class="dropdown">
-                                            <a href="assets/pages/executive24-25.html">Executive Panel</a>
+                                            <a href="executive24-25.html">Executive Panel</a>
                                             <ul>
                                                 <li>
-                                                    <a href="assets/pages/executive22-23.html">executive22-23</a>
+                                                    <a href="executive22-23.html">executive22-23</a>
                                                 </li>
                                                 <li>
-                                                    <a href="assets/pages/executive23-24.html">executive23-24</a>
+                                                    <a href="executive23-24.html">executive23-24</a>
                                                 </li>
                                                 <li>
-                                                    <a href="assets/pages/executive24-25.html">executive24-25</a>
+                                                    <a href="executive24-25.html">executive24-25</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="assets/pages/mentors.html">mentors</a></li>
+                                        <li><a href="mentors.html">mentors</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
                                     <a href="index.html">Events</a>
                                     <ul>
-                                        <li><a href="/assets/pages/national_event.html">National Events</a></li>
-                                        <li><a href="/assets/pages/intra_event.html">Intra Events</a></li>
-                                        <li><a href="/assets/pages/inter_event.html">Inter Events</a></li>
+                                        <li><a href="/national_event.html">National Events</a></li>
+                                        <li><a href="/intra_event.html">Intra Events</a></li>
+                                        <li><a href="/inter_event.html">Inter Events</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="assets/pages/gallery.html">Gallery</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
     
-                                <li><a href="assets/pages/funding.html">Fundings</a></li>
-                                <li><a href="assets/pages/IIEC_officials.html">IIEC officials</a></li>
-                                <li><a href="assets/pages/blog.html">News</a></li>
-                                <li><a href="assets/pages/contact.html">Contact</a></li>
+                                <li><a href="funding.html">Fundings</a></li>
+                                <li><a href="IIEC_officials.html">IIEC officials</a></li>
+                                <li><a href="blog.html">News</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
