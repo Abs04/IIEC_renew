@@ -4,3 +4,7 @@ RewriteEngine On
 # Handle requests without .html extension
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html [L]
+
+# Optionally redirect .html URLs to extensionless URLs
+RewriteCond %{THE_REQUEST} \s/([^\s?]*\.html)[\s?]
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
